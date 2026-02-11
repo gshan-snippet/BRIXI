@@ -1,4 +1,7 @@
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:3001/api';
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || '/api';
+const API_ORIGIN = API_BASE_URL.endsWith('/api')
+  ? API_BASE_URL.slice(0, -4)
+  : API_BASE_URL;
 
 // Auth API
 export const authAPI = {
@@ -52,12 +55,12 @@ export const postsAPI = {
     // Convert relative image paths to full URLs
     return posts.map((post: any) => ({
       ...post,
-      beforeImage: post.beforeImage.startsWith('http') 
-        ? post.beforeImage 
-        : `http://localhost:3001${post.beforeImage}`,
-      afterImage: post.afterImage.startsWith('http') 
-        ? post.afterImage 
-        : `http://localhost:3001${post.afterImage}`
+      beforeImage: post.beforeImage.startsWith('http')
+        ? post.beforeImage
+        : `${API_ORIGIN}${post.beforeImage}`,
+      afterImage: post.afterImage.startsWith('http')
+        ? post.afterImage
+        : `${API_ORIGIN}${post.afterImage}`
     }));
   },
 
@@ -68,12 +71,12 @@ export const postsAPI = {
     // Convert relative image paths to full URLs
     return posts.map((post: any) => ({
       ...post,
-      beforeImage: post.beforeImage.startsWith('http') 
-        ? post.beforeImage 
-        : `http://localhost:3001${post.beforeImage}`,
-      afterImage: post.afterImage.startsWith('http') 
-        ? post.afterImage 
-        : `http://localhost:3001${post.afterImage}`
+      beforeImage: post.beforeImage.startsWith('http')
+        ? post.beforeImage
+        : `${API_ORIGIN}${post.beforeImage}`,
+      afterImage: post.afterImage.startsWith('http')
+        ? post.afterImage
+        : `${API_ORIGIN}${post.afterImage}`
     }));
   },
 
