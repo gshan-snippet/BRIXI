@@ -1,0 +1,13 @@
+[
+  {
+    "id": "4d89e15f-dbb2-4e28-9f60-4f102950bbc3",
+    "operatorId": "operator-1",
+    "typeOfWork": "Bathroom clean",
+    "beforeImage": "/uploads/e50b31b9-b1c2-48c6-9ef3-c73d2c2bfe6a.png",
+    "afterImage": "/uploads/64bb2fc2-0b27-4235-98af-363f9974e6e2.png",
+    "hoursWorked": 4,
+    "userRating": 4.5,
+    "createdAt": "2026-02-07T17:34:50.791Z",
+    "description": "Cleaned all 6 bathrooms for just 100 Rupees"
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "id": "383e9abb-b9e2-4e77-9b9c-473f6c60b5b0",
+    "operatorId": "operator-1",
+    "userId": "dc2dbd6b-e231-4cda-a29d-142bc2f6eeaa",
+    "userName": "ewaed",
+    "userPhone": "465488",
+    "appointmentDate": "February 19th, 2026",
+    "location": "Near pes university ring road campus, Bengaluru.",
+    "workingHours": "5pm",
+    "typeOfWork": "Plumber",
+    "type": "appointment",
+    "senderRole": "consumer",
+    "status": "pending",
+    "createdAt": "2026-02-10T16:28:47.418Z"
+  },
+  {
+    "id": "a4f9ede6-831f-4559-8d6e-4f4d747595ea",
+    "operatorId": "operator-1",
+    "userId": "410512f1-d02e-4223-8bde-f401b217d673",
+    "userName": "faizan badami",
+    "messageText": "hello",
+    "senderRole": "consumer",
+    "type": "message",
+    "createdAt": "2026-02-11T06:57:00.539Z"
+  }
+]

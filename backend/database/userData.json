@@ -1,0 +1,26 @@
+[
+  {
+    "id": "af405f29-7a07-4e58-9ba6-e7e961b7a8b6",
+    "username": "Zeeshan",
+    "phoneNumber": "48552485",
+    "location": "durga vihar railway",
+    "typeOfWork": "Carpenter",
+    "serviceCharge": 300,
+    "materialCosts": 4000,
+    "totalFees": 5000,
+    "profitMargin": 700,
+    "createdAt": "2026-02-11T05:33:48.070Z"
+  },
+  {
+    "id": "333a03d1-8701-4ed9-8b48-cc3920d749b4",
+    "username": "Asif ",
+    "phoneNumber": "895125565",
+    "location": "dharwad, tollnaka",
+    "typeOfWork": "Electric work",
+    "serviceCharge": 200,
+    "materialCosts": 1000,
+    "totalFees": 1500,
+    "profitMargin": 300,
+    "createdAt": "2026-02-11T05:39:53.937Z"
+  }
+]

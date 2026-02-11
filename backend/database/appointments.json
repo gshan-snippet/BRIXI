@@ -1,0 +1,46 @@
+[
+  {
+    "id": "c7d8f5ce-35d8-4e74-8cdd-11df86e69068",
+    "operatorId": "operator-1",
+    "userId": "410512f1-d02e-4223-8bde-f401b217d673",
+    "userName": "faizan badami",
+    "userPhone": "+918431774662",
+    "appointmentDate": "February 12th, 2026",
+    "location": "Near pes university ring road campus, Bengaluru.",
+    "workingHours": "5pm",
+    "typeOfWork": "Electrician",
+    "type": "appointment",
+    "status": "pending",
+    "createdAt": "2026-02-07T17:39:06.250Z"
+  },
+  {
+    "id": "a98ca545-7059-4eb1-9bc6-1125bd37af84",
+    "operatorId": "operator-1",
+    "userId": "b2156e03-71d2-4ea3-a9a1-51ffbc692f2b",
+    "userName": "Irfan Khazi",
+    "userPhone": "9449945058",
+    "appointmentDate": "February 20th, 2026",
+    "location": "Near pes university ring road campus, Bengaluru.",
+    "workingHours": "5pm",
+    "typeOfWork": "Cleaner",
+    "type": "appointment",
+    "senderRole": "consumer",
+    "status": "pending",
+    "createdAt": "2026-02-09T04:38:52.407Z"
+  },
+  {
+    "id": "383e9abb-b9e2-4e77-9b9c-473f6c60b5b0",
+    "operatorId": "operator-1",
+    "userId": "dc2dbd6b-e231-4cda-a29d-142bc2f6eeaa",
+    "userName": "ewaed",
+    "userPhone": "465488",
+    "appointmentDate": "February 19th, 2026",
+    "location": "Near pes university ring road campus, Bengaluru.",
+    "workingHours": "5pm",
+    "typeOfWork": "Plumber",
+    "type": "appointment",
+    "senderRole": "consumer",
+    "status": "pending",
+    "createdAt": "2026-02-10T16:28:47.418Z"
+  }
+]

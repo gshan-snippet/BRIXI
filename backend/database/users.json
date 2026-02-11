@@ -1,0 +1,37 @@
+[
+  {
+    "id": "operator-1",
+    "email": "asifkazi369@gmail.com",
+    "password": "CONSCIENTIOUS",
+    "name": "Operator",
+    "role": "operator",
+    "createdAt": "2026-02-07T17:25:13.059Z"
+  },
+  {
+    "id": "410512f1-d02e-4223-8bde-f401b217d673",
+    "email": "gshan.zenza123@gmail.com",
+    "password": "123456",
+    "name": "faizan badami",
+    "phone": "+918431774662",
+    "role": "consumer",
+    "createdAt": "2026-02-07T17:35:26.358Z"
+  },
+  {
+    "id": "b2156e03-71d2-4ea3-a9a1-51ffbc692f2b",
+    "email": "irfan@gmail.com",
+    "password": "Pesu@123",
+    "name": "Irfan Khazi",
+    "phone": "9449945058",
+    "role": "consumer",
+    "createdAt": "2026-02-09T04:37:48.541Z"
+  },
+  {
+    "id": "dc2dbd6b-e231-4cda-a29d-142bc2f6eeaa",
+    "email": "efe@gmail.com",
+    "password": "efwEFWef",
+    "name": "ewaed",
+    "phone": "465488",
+    "role": "consumer",
+    "createdAt": "2026-02-10T16:27:32.473Z"
+  }
+]
