@@ -146,7 +146,7 @@ export function MobileBottomNav() {
   return (
     <nav className="md:hidden fixed bottom-0 left-0 right-0 z-50 bg-card shadow-nav border-t border-border">
       <div className="flex items-center justify-around py-2">
-        {navItems.slice(0, -1).map((item) => (
+        {navItems.map((item) => (
           <RouterNavLink
             key={item.to}
             to={item.to}
