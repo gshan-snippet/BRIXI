@@ -566,6 +566,18 @@ const Index = () => {
           </Button>
         </Link>
       </section>
+
+      <footer className="px-4 md:px-8 py-10 bg-muted/40">
+        <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-8">
+          <div>
+            <h3 className="font-heading text-xl font-semibold mb-3">About us</h3>
+            <p className="text-sm text-muted-foreground">Founder - Asif Kazi</p>
+            <p className="text-sm text-muted-foreground">Co-Founder - Zeeshan Badami</p>
+            <p className="text-sm text-muted-foreground">Contact us - 99645 02622</p>
+            <p className="text-sm text-muted-foreground">email us - asifkazi369@gmail.com</p>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 };
