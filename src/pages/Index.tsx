@@ -552,32 +552,31 @@ const Index = () => {
         </div>
       </section>
 
-      {/* CTA */}
-      <section className="px-4 md:px-8 py-16 bg-primary text-primary-foreground text-center">
-        <h2 className="font-heading text-3xl md:text-4xl font-bold mb-4">
-          Ready to get started?
-        </h2>
-        <p className="text-primary-foreground/80 mb-8 max-w-lg mx-auto">
-          Join thousands of homeowners who trust BRIXI for reliable home services.
-        </p>
-        <Link to="/login">
-          <Button variant="secondary" size="lg" className="text-base gap-2">
-            Create an Account <ArrowRight className="h-5 w-5" />
-          </Button>
-        </Link>
-      </section>
-
-      <footer className="px-4 md:px-8 py-10 bg-muted/40">
-        <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-8">
+      {/* CTA + About */}
+      <section className="px-4 md:px-8 py-16 bg-primary text-primary-foreground">
+        <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center">
           <div>
-            <h3 className="font-heading text-xl font-semibold mb-3">About us</h3>
-            <p className="text-sm text-muted-foreground">Founder - Asif Kazi</p>
-            <p className="text-sm text-muted-foreground">Co-Founder - Zeeshan Badami</p>
-            <p className="text-sm text-muted-foreground">Contact us - 99645 02622</p>
-            <p className="text-sm text-muted-foreground">email us - asifkazi369@gmail.com</p>
+            <h3 className="font-heading text-3xl font-bold mb-4">About us</h3>
+            <p className="text-lg text-primary-foreground/85">Founder - Asif Kazi</p>
+            <p className="text-lg text-primary-foreground/85">Co-Founder - Zeeshan Badami</p>
+            <p className="text-lg text-primary-foreground/85">Contact us - 99645 02622</p>
+            <p className="text-lg text-primary-foreground/85">email us - asifkazi369@gmail.com</p>
+          </div>
+          <div className="md:justify-self-end md:max-w-xl">
+            <h2 className="font-heading text-3xl md:text-4xl font-bold mb-4">
+              Ready to get started?
+            </h2>
+            <p className="text-primary-foreground/80 mb-8">
+              Join thousands of homeowners who trust BRIXI for reliable home services.
+            </p>
+            <Link to="/login">
+              <Button variant="secondary" size="lg" className="text-base gap-2">
+                Create an Account <ArrowRight className="h-5 w-5" />
+              </Button>
+            </Link>
           </div>
         </div>
-      </footer>
+      </section>
     </div>
   );
 };
